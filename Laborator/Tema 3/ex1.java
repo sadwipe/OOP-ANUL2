@@ -12,8 +12,9 @@ public class ex1 {
 		a = scanner.nextInt();
 		b = scanner.nextInt();
 		scanner.close();
-		
+		// parcurgem intervalul[a, b]
 		for(int i = a; i <= b; i++) {
+			// daca gasim un numar care este prim intrerupem for si-l afisam.
 			if(isPrime(i)) {
 				hasPrime = true;
 				System.out.println("Intervalul contine un numarul prim: " + i);
@@ -21,10 +22,10 @@ public class ex1 {
 			}
 		}
 		if (hasPrime == false) {
-			System.out.println("Intervalul nu contine niciun numar prim");
+			System.out.println("Intervalul nu contine niciun numar prim.");
 		}
 	}
-	
+
 	private static boolean isPrime(int n) {
 		if(n % 2 == 0) {
 			return false;
