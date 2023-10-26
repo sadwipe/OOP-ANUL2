@@ -1,3 +1,6 @@
+// Se citeste un numar natural n. Se citesc primul termen si ratia unei progresii aritmetice.
+// Sa se calculeze recursiv termenii de rang n ai progresiei.
+
 import java.util.Scanner;
 
 public class ex2 {
