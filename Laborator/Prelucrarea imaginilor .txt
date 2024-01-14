@@ -1,0 +1,223 @@
+Cursul 1:
+	Introducere în prelucrarea imaginilor
+	De ce limbajul Python?
+	Elemente de baza ale limbajului Python
+	Tipuri de date Python
+	Instrucțiunea condițională if
+	Instrucțiunea repetitivă for
+	Funcții 
+	Lucru cu imagini 
+	Modul de reprezentare al imaginilor	Mediul de programare PyCharm
+	Bibiloteca Matplotlib
+	Biblioteca OpenCV
+	Interpolarea imaginilor
+	Aplicații
+	Întrebări
+	Webografie
+
+Cursul 2:
+	Percepţia vizuală umană
+	Cum reprezentăm culorile ?
+	Legile lui Grassman
+	Sisteme de reprezentare a culorilor 
+	Spațiul de culoare RGB
+	Spațiul de culoare CMY
+	Spațiul de culoare XYZ
+	Sisteme pe bază de luminanță-crominanță, Spațiul de culoare YCbCr
+	Variante YCbCr :
+	Sisteme perceptuale, Spațiul Munsell  sau spațiul de culoare L*a*b*	Spațiile de culoare geometrice, Spațiile de culoare geometrice: spațiile HSL şi HSV
+	Modul de prelucrare al imaginilor color
+	Implementarea sistemelor de culoare cu OpenCv
+	Lucru cu canale de culoare RGB
+	Binarizarea imaginilor
+	Tipuri de praguri folosite în binarizare
+	Binarizare bimodală cu metoda Otsu
+	Binarizare adaptivă
+	Webografie
+ 	Aplicații
+
+Cursul 3:
+	Morfologie matematică 
+	1.Notiunea de obiect și de fundal 
+	2.Elementul structurant 
+	3.Dilatarea 
+	4.Erodarea 
+	5.Operațiile de deschidere și închidere 
+	6.Gradientul morfologic, conturul interior și exterior 
+	7. Transformări morfologice 
+	7.1 Transformarea Black Hat 
+	7.2 Transformarea Top-Hat 
+	7. Transformarea Hit-or-Miss 
+	8. Scheletonizarea 
+	9. Procesarea imaginilor cu Skimage 
+	9. Operații morfologice pentru niveluri de gri 
+	Aplicații Webografie
+
+Cursul 4:
+	1. Clasificatorul în cascadă integrat cu caracteristice Haar
+	1.1 Antrenarea clasificatorului in cascadă
+	1.2 Modul de calcul pentru caracteristicile Haar
+	1.3 Algoritmul Adaboost de selectare a caracteristicilor relevante
+	1.4 Detectarea fetei dintr-o imagine cu algoritmul Haar Cascade Frontal Face Model
+	1.5 Aplicație  pentru detectarea feței
+	1.6 Aplicație pentru detectarea ochilor
+	2. Clasificatorul Local Binary	3.1 Avantajele/dezavantajele folosirii clasificatorului Haar 
+	3.2 Avantajele/dezavantajele folosirii clasificatorului LBP
+	4. Recunoaștere facială în timp real cu Python și OpenCV
+	4.1 Aplicație pentru detectarea obiectelor dintr-un clip
+	5. Urmărirea obiectelor în OpenCV
+	6. Aplicație propusă
+	7. Webografie
+	8. Anexă imagini
+
+Cursul 5:
+	Filtrarea imaginilor
+	1. Zgomotul în imagini
+	1.2Tipuri de zgomote
+	1.2.a. Zgomotul de tip sare si piper
+	1.2.b.Zgomotul gaussian
+	2. Operația de convoluție
+	2.1 Reprezentarea grafică a operației de convoluție
+	2.2 Estomparea unei imagini folosind un nucleu de convoluție 2D personalizat
+	3. Filtre low-pass (trece-jos)
+	3.1 Filtrul gaussian
+	3.2 Filtrul median
+	3.3 Filtru Sharp
+	3.4 Filtrul bilateral 
+	3.5 Filtrul Boxfilter	4. Filtre statistice
+	4.1 Filtru minim
+	4.2 Filtru maxim
+	5. Filtre  derivative
+	5.1 Filtre  derivative de ordinul I
+	5.1.a Filtrul Sobel
+	5.1.b Filtrul Roberts
+	5.1.c Filtrul Scharr
+	5.1.d Filtrul Prewitt
+	5.2 Filtre derivative de ordinul II
+	5.2.a Filtrul Laplascian
+	6. Aplicație  filtru median
+	7. Filtrarea imaginilor folosind pachetul PIL
+	8. Aplicații propuse
+	9. Webografie
+
+Cursul 6:
+	1. Biblioteca Python Imaging Library (extinderea PIL)
+	1.1. Deschiderea unei imagini 
+	1.2. Afișarea imaginii
+	1.3.Obținerea dimensiunii imaginii:
+	1.4. Obținerea de informații despre imagine
+	1.5. Rotirea unei imagini
+	1.6. Redimensionarea unei imagini
+	1.7. Salvarea unei imagini
+	2. Suprapunerea  a doua imagini
+	3. Crearea unei măști
+	3.1 Mască de tip elipsă
+	3.2 Mască de tip elipsă blurată de un filtru guassian.
+	3.3 Mască de formă aleatoare
+	4. Decuparea regiunilor de interes
+	4.1 Decuparea din imagine a unui patrulater	4.2 Decuparea unui disc
+	4.3 Decupare cu ajutorul funcțiilor
+	4.4 Decuparea imaginilor cu elemente din OpenCv
+	5. Concatenarea imaginilor
+	6. Transparența
+	7. Oglindirea unei imagini
+	8. Negativul unei imagini
+	9. Luminozitatea imaginii
+	10. Ajustarea clarității
+	11. Ajustarea contrastului
+	12. Aplicație rezolvată
+	13. Aplicație propusă
+	14. Anexă imagini
+	15. Webografie
+
+Cursul 7:
+	1. Caracteristicile de ordinul I
+	2. Trasarea histogramei unei imagini 
+	3. Trasarea histogramelor canalelor de culoare
+	4. Egalizarea histogramei cu metoda CLAHE
+	5. Caracteristicile de ordinul I extrase din histograma
+	6. Matricea de co-ocurență
+	7. Caracteristicile de ordinul II
+	8. Momentele Hu
+	9. Detecția punctelor de interes de tip colț	9.1 Colțurile Harris
+	9.2 9.2 Colturile Shi-Tomasi
+	10. Aplicație propusă
+	11. Anexă imagini
+	12. Webografie
+
+Cursul 8:
+	1. Segmentarea imaginilor cu metoda watershed
+	2. Metoda de segmentare bazată pe contururi
+	3. Segmentare prin clusterizare k-Means
+	4. Aplicație: Determinarea celulelor dintr-o imagine microscopică
+	5. Metoda de segmentare GrabCut 
+	6. Segmentare bazată pe prăguire
+	7. Segmentarea bazată măști de culori
+	9. Aplicație propusă
+	10. Metrici de calitate
+	10.1 Coeficientul de similaritate Dice
+	10.2 Eroarea pătratică medie
+	10.3 Raportul de vârf semnal zgomot
+	10. Anexă imagini
+	11. Webografie
+
+Cursul 9:
+ 	1. Citirea și salvarea unui film 
+	2. Redarea unui film în niveluri de gri
+	3. Blurarea unui film
+	4. Fluxul optic
+	5. Eliminarea fundalului
+	5.1.Eliminarea fundalului cu elemente de morfologie matematică
+	5.2. Eliminarea fundalului utilizând media	6. Segmentarea cadrelor unui film
+	7. Determinarea obiectelor dintr-un film cu metoda HOG
+	8. Aplicație propusă
+	9. Anexă imagini
+	10. Webografie
+
+Cursul 10:
+	1 Învățare profundă (Deep Learning) cu modulul OpenCV DNN 
+	1.1Ce este o rețea neuronală?
+	1.2. Înțelegerea intrării rețelei neuronale
+	1.3.Ce este modulul OpenCV DNN?
+	1.5. Diferite funcționalități de învățare profundă pe care le acceptă modulul OpenCV DNN
+	1.6. Modele pe care le acceptă modulul OpenCV DNN
+	2.Modelele pe care le acceptă modulul OpenCV DNN	2.1. Modelul Caffe
+	2.2 Modelul TensorFlow
+	2.3. Modelul Torch și PyTorch 
+	2.4. Modele convertite în format ONNX din etape diferite precum Keras și PyTorch
+	3. Baza de imagini ImageNet
+	4. Clasificarea imaginilor folosind modulul OpenCV DNN
+	5. Detectarea obiectelor folosind OpenCV DNN
+	6. Detectarea obiectelor în videoclipuri 
+
+Cursul 11:
+	1. Clasificatorul în cascadă integrat cu caracteristice Haar
+	1.1 Antrenarea clasificatorului in cascadă
+	1.2 Modul de calcul pentru caracteristicile Haar
+	1.3 Algoritmul Adaboost de selectare a caracteristicilor relevante
+	1.4 Detectarea fetei dintr-o imagine cu algoritmul Haar Cascade Frontal Face Model
+	1.5 Aplicație  pentru detectarea feței
+	1.6 Aplicație pentru detectarea ochilor
+	2. Clasificatorul Local Binary	3.1 Avantajele/dezavantajele folosirii clasificatorului Haar 
+	3.2 Avantajele/dezavantajele folosirii clasificatorului LBP
+	4. Recunoaștere facială în timp real cu Python și OpenCV
+	4.1 Aplicație pentru detectarea obiectelor dintr-un clip
+	5. Urmărirea obiectelor în OpenCV
+	6. Aplicație propusă
+	7. Webografie
+	8. Anexă imagini
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+Operațiile morfologice se aplică numai pe imagini binare
+plt.subplot(111), plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)), plt.title("Original") // pentru plot imagine originala
